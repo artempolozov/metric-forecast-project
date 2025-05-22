@@ -1,0 +1,7 @@
+"name","left_bound","right_bound"
+avg_response_time_ms_slo,10.0,1500.0
+error_rate_slo,0.8,1.5
+load_parcent_slo,40.0,70.0
+recovery_time_ms_slo,0.0,3000.0
+response_time_ms_slo,50.0,600.0
+uptime_percent_slo,99.0,99.9

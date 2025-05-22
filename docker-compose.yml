@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  timescaledb:
+    image: timescale/timescaledb:latest-pg15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
+    volumes:
+      - timescaledb_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  fastapi-app:
+    build: ./app
+    ports:
+      - "8000:8000"
+    depends_on:
+      timescaledb:
+        condition: service_healthy
+    environment:
+      DB_HOST: timescaledb
+      DB_NAME: postgres
+      DB_USER: postgres
+      DB_PASSWORD: password
+      PYTHONUNBUFFERED: 1  # Важно для корректного вывода логов
+    volumes:
+      - ./app/logs:/app/logs  # Монтируем директорию с логами
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  timescaledb_data:

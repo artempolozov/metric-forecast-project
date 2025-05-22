@@ -1,0 +1,1413 @@
+F:\final-project\venv\Scripts\python.exe F:\final-project\app\pipeline.py
+Importing plotly failed. Interactive plots will not work.
+Getting all data...
+
+====================MICROSERVICE-5====================
+
+Get all forecasts for microservice-5 based on infrastructure_metrics
+--------CPU--------
+
+Training RNN...
+Epoch 1 - Avg Loss: 0.0638
+Epoch 2 - Avg Loss: 0.0597
+Epoch 3 - Avg Loss: 0.0598
+Epoch 4 - Avg Loss: 0.0597
+Epoch 5 - Avg Loss: 0.0596
+
+Training Prophet...
+04:00:01 - cmdstanpy - INFO - Chain [1] start processing
+04:00:02 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+
+Shapes - True: (2175,), RNN: (2175,), Prophet: (2175,), SARIMA: (2175,)
+
+Model Comparison:
+RNN:
+  MAE: 0.5593822659775421
+  RMSE: 0.6769289078073573
+  SMAPE: 15.709483154637388%
+Prophet:
+  MAE: 0.5516820335147554
+  RMSE: 0.6753002421780591
+  SMAPE: 15.499302344298421%
+SARIMA:
+  MAE: 0.5756243513110347
+  RMSE: 0.6825549911002605
+  SMAPE: 16.1576796107082%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.0759
+Epoch 2 - Avg Loss: 0.0717
+Epoch 3 - Avg Loss: 0.0714
+Epoch 4 - Avg Loss: 0.0714
+Epoch 5 - Avg Loss: 0.0710
+
+Training Prophet...
+04:02:40 - cmdstanpy - INFO - Chain [1] start processing
+04:02:40 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+
+Shapes - True: (2175,), RNN: (2175,), Prophet: (2175,), SARIMA: (2175,)
+
+Model Comparison:
+RNN:
+  MAE: 0.4333289994059918
+  RMSE: 0.5054371300889757
+  SMAPE: 7.978399152707192%
+Prophet:
+  MAE: 0.4239859663687684
+  RMSE: 0.5031033288242717
+  SMAPE: 7.8074592512141505%
+SARIMA:
+  MAE: 0.42035856206270955
+  RMSE: 0.5042859421791674
+  SMAPE: 7.741599494212208%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.0766
+Epoch 2 - Avg Loss: 0.0719
+Epoch 3 - Avg Loss: 0.0712
+Epoch 4 - Avg Loss: 0.0711
+Epoch 5 - Avg Loss: 0.0714
+
+Training Prophet...
+04:06:41 - cmdstanpy - INFO - Chain [1] start processing
+04:06:42 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+
+Shapes - True: (2173,), RNN: (2173,), Prophet: (2173,), SARIMA: (2173,)
+
+Model Comparison:
+RNN:
+  MAE: 0.4210849279246179
+  RMSE: 0.4964863690137398
+  SMAPE: 6.874429821520102%
+Prophet:
+  MAE: 0.4174281537555404
+  RMSE: 0.4954944428356538
+  SMAPE: 6.815301717547523%
+SARIMA:
+  MAE: 0.411777542228699
+  RMSE: 0.49789842000960965
+  SMAPE: 6.723939162469575%
+
+Future predictions...
+--------DISK--------
+
+Training RNN...
+Epoch 1 - Avg Loss: 0.0712
+Epoch 2 - Avg Loss: 0.0687
+Epoch 3 - Avg Loss: 0.0686
+Epoch 4 - Avg Loss: 0.0684
+Epoch 5 - Avg Loss: 0.0683
+
+Training Prophet...
+04:08:43 - cmdstanpy - INFO - Chain [1] start processing
+04:08:43 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+
+Shapes - True: (2173,), RNN: (2173,), Prophet: (2173,), SARIMA: (2173,)
+
+Model Comparison:
+RNN:
+  MAE: 0.4645673603216666
+  RMSE: 0.5510024960792832
+  SMAPE: 12.8395224777995%
+Prophet:
+  MAE: 0.4589368765624999
+  RMSE: 0.5501175878116465
+  SMAPE: 12.685946192963673%
+SARIMA:
+  MAE: 0.4577329299197446
+  RMSE: 0.5536697278611903
+  SMAPE: 12.651365425915555%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.0787
+Epoch 2 - Avg Loss: 0.0732
+Epoch 3 - Avg Loss: 0.0729
+Epoch 4 - Avg Loss: 0.0726
+Epoch 5 - Avg Loss: 0.0727
+
+Training Prophet...
+04:10:48 - cmdstanpy - INFO - Chain [1] start processing
+04:10:49 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+
+Shapes - True: (2173,), RNN: (2173,), Prophet: (2173,), SARIMA: (2173,)
+
+Model Comparison:
+RNN:
+  MAE: 0.3928135284880284
+  RMSE: 0.4627469426093866
+  SMAPE: 6.6048098558895525%
+Prophet:
+  MAE: 0.3895107363296684
+  RMSE: 0.46248734804771624
+  SMAPE: 6.549637619302769%
+SARIMA:
+  MAE: 0.4046696522907518
+  RMSE: 0.47073767920343373
+  SMAPE: 6.804553041947233%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.0794
+Epoch 2 - Avg Loss: 0.0751
+Epoch 3 - Avg Loss: 0.0750
+Epoch 4 - Avg Loss: 0.0756
+Epoch 5 - Avg Loss: 0.0743
+
+Training Prophet...
+04:13:37 - cmdstanpy - INFO - Chain [1] start processing
+04:13:37 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+
+Shapes - True: (2176,), RNN: (2176,), Prophet: (2176,), SARIMA: (2176,)
+
+Model Comparison:
+RNN:
+  MAE: 0.3634058421617539
+  RMSE: 0.43409797141718004
+  SMAPE: 5.255077926294421%
+Prophet:
+  MAE: 0.36468608792285373
+  RMSE: 0.4319443210087027
+  SMAPE: 5.273510810682938%
+SARIMA:
+  MAE: 0.3655169671178826
+  RMSE: 0.4312649646116822
+  SMAPE: 5.285449272739863%
+
+Future predictions...
+--------MEMORY--------
+
+Training RNN...
+Epoch 1 - Avg Loss: 0.0746
+Epoch 2 - Avg Loss: 0.0728
+Epoch 3 - Avg Loss: 0.0728
+Epoch 4 - Avg Loss: 0.0724
+Epoch 5 - Avg Loss: 0.0727
+
+Training Prophet...
+04:17:46 - cmdstanpy - INFO - Chain [1] start processing
+04:17:47 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+
+Shapes - True: (2177,), RNN: (2177,), Prophet: (2177,), SARIMA: (2177,)
+
+Model Comparison:
+RNN:
+  MAE: 0.4235910305979122
+  RMSE: 0.49481035111678645
+  SMAPE: 11.168142573061923%
+Prophet:
+  MAE: 0.42012801192552257
+  RMSE: 0.4926510101797892
+  SMAPE: 11.07748864496014%
+SARIMA:
+  MAE: 0.4454151646271726
+  RMSE: 0.5106929842544152
+  SMAPE: 11.746490665791416%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.0773
+Epoch 2 - Avg Loss: 0.0724
+Epoch 3 - Avg Loss: 0.0725
+Epoch 4 - Avg Loss: 0.0726
+Epoch 5 - Avg Loss: 0.0727
+
+Training Prophet...
+04:21:36 - cmdstanpy - INFO - Chain [1] start processing
+04:21:36 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (2174,), RNN: (2174,), Prophet: (2174,), SARIMA: (2174,)
+
+Model Comparison:
+RNN:
+  MAE: 0.4123112204751
+  RMSE: 0.5117883353563994
+  SMAPE: 8.391554056634057%
+Prophet:
+  MAE: 0.416087658391389
+  RMSE: 0.5012467903887117
+  SMAPE: 8.468692385346838%
+SARIMA:
+  MAE: 0.4125610459408154
+  RMSE: 0.5034429650086863
+  SMAPE: 8.398309770015828%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.0813
+Epoch 2 - Avg Loss: 0.0748
+Epoch 3 - Avg Loss: 0.0753
+Epoch 4 - Avg Loss: 0.0753
+Epoch 5 - Avg Loss: 0.0747
+
+Training Prophet...
+04:25:25 - cmdstanpy - INFO - Chain [1] start processing
+04:25:25 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+
+Shapes - True: (2175,), RNN: (2175,), Prophet: (2175,), SARIMA: (2175,)
+
+Model Comparison:
+RNN:
+  MAE: 0.37539745058352675
+  RMSE: 0.4636951834148898
+  SMAPE: 5.687317697059771%
+Prophet:
+  MAE: 0.3895842941949125
+  RMSE: 0.4537601131405253
+  SMAPE: 5.902047954543897%
+SARIMA:
+  MAE: 0.3757391568181589
+  RMSE: 0.4507703350135408
+  SMAPE: 5.693312183951051%
+
+Future predictions...
+--------NETWORK--------
+
+Training RNN...
+Epoch 1 - Avg Loss: 0.0742
+Epoch 2 - Avg Loss: 0.0627
+Epoch 3 - Avg Loss: 0.0622
+Epoch 4 - Avg Loss: 0.0622
+Epoch 5 - Avg Loss: 0.0621
+
+Training Prophet...
+04:28:17 - cmdstanpy - INFO - Chain [1] start processing
+04:28:17 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+
+Shapes - True: (2175,), RNN: (2175,), Prophet: (2175,), SARIMA: (2175,)
+
+Model Comparison:
+RNN:
+  MAE: 0.531403107143971
+  RMSE: 0.6497571271204539
+  SMAPE: 15.758142928912674%
+Prophet:
+  MAE: 0.5558752908349304
+  RMSE: 0.6562575038960563
+  SMAPE: 16.472084259648057%
+SARIMA:
+  MAE: 0.5630795582979211
+  RMSE: 0.6597591429714523
+  SMAPE: 16.683657118195903%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.0812
+Epoch 2 - Avg Loss: 0.0747
+Epoch 3 - Avg Loss: 0.0747
+Epoch 4 - Avg Loss: 0.0742
+Epoch 5 - Avg Loss: 0.0740
+
+Training Prophet...
+04:32:15 - cmdstanpy - INFO - Chain [1] start processing
+04:32:15 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+
+Shapes - True: (2164,), RNN: (2164,), Prophet: (2164,), SARIMA: (2164,)
+
+Model Comparison:
+RNN:
+  MAE: 0.4314879967646368
+  RMSE: 0.5092348232563998
+  SMAPE: 9.580478255162486%
+Prophet:
+  MAE: 0.4312503080701375
+  RMSE: 0.5100610770840684
+  SMAPE: 9.575226596588438%
+SARIMA:
+  MAE: 0.42393575748026135
+  RMSE: 0.5130792676775493
+  SMAPE: 9.414622828748568%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.0741
+Epoch 2 - Avg Loss: 0.0723
+Epoch 3 - Avg Loss: 0.0723
+Epoch 4 - Avg Loss: 0.0720
+Epoch 5 - Avg Loss: 0.0720
+
+Training Prophet...
+04:37:05 - cmdstanpy - INFO - Chain [1] start processing
+04:37:06 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (2174,), RNN: (2174,), Prophet: (2174,), SARIMA: (2174,)
+
+Model Comparison:
+RNN:
+  MAE: 0.4128683123310523
+  RMSE: 0.49627522442590216
+  SMAPE: 7.598842345337278%
+Prophet:
+  MAE: 0.4154673106789543
+  RMSE: 0.4963552929827673
+  SMAPE: 7.645802631658113%
+SARIMA:
+  MAE: 0.5073753071284666
+  RMSE: 0.5778246649309288
+  SMAPE: 9.364563944687838%
+
+Future predictions...
+Get all forecasts for microservice-5 based on http_metrics
+	Forecasting for endpoint: /PRICE
+		Forecasting for method: GET
+Training RNN...
+Epoch 1 - Avg Loss: 0.1844
+Epoch 2 - Avg Loss: 0.0832
+Epoch 3 - Avg Loss: 0.0753
+Epoch 4 - Avg Loss: 0.0741
+Epoch 5 - Avg Loss: 0.0750
+
+Training Prophet...
+04:41:38 - cmdstanpy - INFO - Chain [1] start processing
+04:41:38 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (133,), RNN: (133,), Prophet: (133,), SARIMA: (133,)
+
+Model Comparison:
+RNN:
+  MAE: 0.3327425425353957
+  RMSE: 0.41675647325599285
+  SMAPE: 31.198662629962236%
+Prophet:
+  MAE: 0.3699404368664509
+  RMSE: 0.4254436289270053
+  SMAPE: 35.359676314543414%
+SARIMA:
+  MAE: 0.7757571600972807
+  RMSE: 0.8669982230351609
+  SMAPE: 92.37494776863741%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.1209
+Epoch 2 - Avg Loss: 0.0829
+Epoch 3 - Avg Loss: 0.0764
+Epoch 4 - Avg Loss: 0.0752
+Epoch 5 - Avg Loss: 0.0759
+
+Training Prophet...
+04:43:12 - cmdstanpy - INFO - Chain [1] start processing
+04:43:12 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (134,), RNN: (134,), Prophet: (134,), SARIMA: (134,)
+
+Model Comparison:
+RNN:
+  MAE: 0.39535107672553066
+  RMSE: 0.4516022743694083
+  SMAPE: 7.9187905188086924%
+Prophet:
+  MAE: 0.4135236895494937
+  RMSE: 0.4637798739359746
+  SMAPE: 8.285567476742678%
+SARIMA:
+  MAE: 0.4049746580482676
+  RMSE: 0.45705406783142855
+  SMAPE: 8.111411212596204%
+
+Future predictions...
+		Forecasting for method: PUT
+Training RNN...
+Epoch 1 - Avg Loss: 0.1836
+Epoch 2 - Avg Loss: 0.0772
+Epoch 3 - Avg Loss: 0.0689
+Epoch 4 - Avg Loss: 0.0682
+Epoch 5 - Avg Loss: 0.0691
+
+Training Prophet...
+04:45:04 - cmdstanpy - INFO - Chain [1] start processing
+04:45:04 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (145,), RNN: (145,), Prophet: (145,), SARIMA: (145,)
+
+Model Comparison:
+RNN:
+  MAE: 0.3553670438926574
+  RMSE: 0.42584682359216897
+  SMAPE: 33.55992573696826%
+Prophet:
+  MAE: 0.34937306638747095
+  RMSE: 0.4202411401248156
+  SMAPE: 33.153412795015534%
+SARIMA:
+  MAE: 0.35211928724325436
+  RMSE: 0.43983975897114974
+  SMAPE: 33.01277006892467%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.1321
+Epoch 2 - Avg Loss: 0.0778
+Epoch 3 - Avg Loss: 0.0747
+Epoch 4 - Avg Loss: 0.0741
+Epoch 5 - Avg Loss: 0.0740
+
+Training Prophet...
+04:46:36 - cmdstanpy - INFO - Chain [1] start processing
+04:46:36 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+
+Shapes - True: (144,), RNN: (144,), Prophet: (144,), SARIMA: (144,)
+
+Model Comparison:
+RNN:
+  MAE: 0.3969272894121115
+  RMSE: 0.4576067709240815
+  SMAPE: 7.955789852291953%
+Prophet:
+  MAE: 0.391447097553345
+  RMSE: 0.49333774781395323
+  SMAPE: 7.838692188968609%
+SARIMA:
+  MAE: 12681.225534137588
+  RMSE: 36245.33695734197
+  SMAPE: 131.1551501984218%
+
+Future predictions...
+		Forecasting for method: POST
+Training RNN...
+Epoch 1 - Avg Loss: 0.0979
+Epoch 2 - Avg Loss: 0.0786
+Epoch 3 - Avg Loss: 0.0780
+Epoch 4 - Avg Loss: 0.0776
+Epoch 5 - Avg Loss: 0.0761
+
+Training Prophet...
+04:47:07 - cmdstanpy - INFO - Chain [1] start processing
+04:47:07 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (149,), RNN: (149,), Prophet: (149,), SARIMA: (149,)
+
+Model Comparison:
+RNN:
+  MAE: 0.34138839997381865
+  RMSE: 0.40671374651602415
+  SMAPE: 30.434942999249117%
+Prophet:
+  MAE: 0.323074649181318
+  RMSE: 0.3945845258008874
+  SMAPE: 28.852029800920665%
+SARIMA:
+  MAE: 0.3244409940819431
+  RMSE: 0.39354155195410245
+  SMAPE: 28.948733994964527%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.1395
+Epoch 2 - Avg Loss: 0.0732
+Epoch 3 - Avg Loss: 0.0726
+Epoch 4 - Avg Loss: 0.0738
+Epoch 5 - Avg Loss: 0.0729
+
+Training Prophet...
+04:48:48 - cmdstanpy - INFO - Chain [1] start processing
+04:48:48 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (148,), RNN: (148,), Prophet: (148,), SARIMA: (148,)
+
+Model Comparison:
+RNN:
+  MAE: 0.39628404245308113
+  RMSE: 0.4559641222801378
+  SMAPE: 7.884991954032193%
+Prophet:
+  MAE: 0.3655654804370246
+  RMSE: 0.43569864410006326
+  SMAPE: 7.270550901442892%
+SARIMA:
+  MAE: 0.46048746072257607
+  RMSE: 0.5186742197348159
+  SMAPE: 9.197267138612625%
+
+Future predictions...
+	Forecasting for endpoint: /USERS
+		Forecasting for method: GET
+Training RNN...
+Epoch 1 - Avg Loss: 0.1176
+Epoch 2 - Avg Loss: 0.0816
+Epoch 3 - Avg Loss: 0.0781
+Epoch 4 - Avg Loss: 0.0779
+Epoch 5 - Avg Loss: 0.0776
+
+Training Prophet...
+04:50:54 - cmdstanpy - INFO - Chain [1] start processing
+04:50:54 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (133,), RNN: (133,), Prophet: (133,), SARIMA: (133,)
+
+Model Comparison:
+RNN:
+  MAE: 0.38652128627515725
+  RMSE: 0.4467757141451362
+  SMAPE: 36.68200846539399%
+Prophet:
+  MAE: 0.3650711343669577
+  RMSE: 0.44397978737929106
+  SMAPE: 34.57117806421084%
+SARIMA:
+  MAE: 0.37629285261620365
+  RMSE: 0.4464988129314307
+  SMAPE: 35.54130488341975%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.1119
+Epoch 2 - Avg Loss: 0.0794
+Epoch 3 - Avg Loss: 0.0781
+Epoch 4 - Avg Loss: 0.0772
+Epoch 5 - Avg Loss: 0.0777
+
+Training Prophet...
+04:52:23 - cmdstanpy - INFO - Chain [1] start processing
+04:52:23 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+
+Shapes - True: (132,), RNN: (132,), Prophet: (132,), SARIMA: (132,)
+
+Model Comparison:
+RNN:
+  MAE: 0.3410324007875259
+  RMSE: 0.3986357484093575
+  SMAPE: 6.710384684302591%
+Prophet:
+  MAE: 0.32967452782356504
+  RMSE: 0.39102052281354166
+  SMAPE: 6.487081676694831%
+SARIMA:
+  MAE: 0.35833321982350447
+  RMSE: 0.4681318629905073
+  SMAPE: 7.014445304686425%
+
+Future predictions...
+		Forecasting for method: PUT
+Training RNN...
+Epoch 1 - Avg Loss: 0.2097
+Epoch 2 - Avg Loss: 0.0842
+Epoch 3 - Avg Loss: 0.0767
+Epoch 4 - Avg Loss: 0.0719
+Epoch 5 - Avg Loss: 0.0719
+
+Training Prophet...
+04:55:05 - cmdstanpy - INFO - Chain [1] start processing
+04:55:05 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (135,), RNN: (135,), Prophet: (135,), SARIMA: (135,)
+
+Model Comparison:
+RNN:
+  MAE: 0.3171250209777327
+  RMSE: 0.3817819866455214
+  SMAPE: 28.686493228097238%
+Prophet:
+  MAE: 0.3413854077355774
+  RMSE: 0.39442000742879046
+  SMAPE: 31.032067960118965%
+SARIMA:
+  MAE: 0.4502571946212473
+  RMSE: 0.5204170085281351
+  SMAPE: 42.274234088482494%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.1784
+Epoch 2 - Avg Loss: 0.0912
+Epoch 3 - Avg Loss: 0.0789
+Epoch 4 - Avg Loss: 0.0783
+Epoch 5 - Avg Loss: 0.0794
+
+Training Prophet...
+04:56:51 - cmdstanpy - INFO - Chain [1] start processing
+04:56:51 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (134,), RNN: (134,), Prophet: (134,), SARIMA: (134,)
+
+Model Comparison:
+RNN:
+  MAE: 0.3492672034383872
+  RMSE: 0.41741158908524667
+  SMAPE: 6.918320290930578%
+Prophet:
+  MAE: 0.3530397248635256
+  RMSE: 0.4279984027336531
+  SMAPE: 6.989003321939922%
+SARIMA:
+  MAE: 0.3622058742687053
+  RMSE: 0.46123033076687486
+  SMAPE: 7.157910523807066%
+
+Future predictions...
+		Forecasting for method: POST
+Training RNN...
+Epoch 1 - Avg Loss: 0.1297
+Epoch 2 - Avg Loss: 0.0812
+Epoch 3 - Avg Loss: 0.0769
+Epoch 4 - Avg Loss: 0.0741
+Epoch 5 - Avg Loss: 0.0742
+
+Training Prophet...
+04:58:27 - cmdstanpy - INFO - Chain [1] start processing
+04:58:27 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (142,), RNN: (142,), Prophet: (142,), SARIMA: (142,)
+
+Model Comparison:
+RNN:
+  MAE: 0.3052451257818386
+  RMSE: 0.3826549229669953
+  SMAPE: 27.177050499496403%
+Prophet:
+  MAE: 0.3219741427177428
+  RMSE: 0.3845160487780832
+  SMAPE: 28.742465287453346%
+SARIMA:
+  MAE: 0.30989512394500524
+  RMSE: 0.3942696277233609
+  SMAPE: 27.421285944696557%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.1435
+Epoch 2 - Avg Loss: 0.0867
+Epoch 3 - Avg Loss: 0.0851
+Epoch 4 - Avg Loss: 0.0837
+Epoch 5 - Avg Loss: 0.0828
+
+Training Prophet...
+05:00:06 - cmdstanpy - INFO - Chain [1] start processing
+05:00:06 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (142,), RNN: (142,), Prophet: (142,), SARIMA: (142,)
+
+Model Comparison:
+RNN:
+  MAE: 0.37107433514280497
+  RMSE: 0.42892942234150616
+  SMAPE: 7.34636786040679%
+Prophet:
+  MAE: 0.34475734890349724
+  RMSE: 0.41626240280486665
+  SMAPE: 6.823243659281035%
+SARIMA:
+  MAE: 0.3555415975686553
+  RMSE: 0.4625626945532042
+  SMAPE: 7.021870787668797%
+
+Future predictions...
+	Forecasting for endpoint: /ORDERS
+		Forecasting for method: GET
+Training RNN...
+Epoch 1 - Avg Loss: 0.1601
+Epoch 2 - Avg Loss: 0.0862
+Epoch 3 - Avg Loss: 0.0823
+Epoch 4 - Avg Loss: 0.0804
+Epoch 5 - Avg Loss: 0.0814
+
+Training Prophet...
+05:01:50 - cmdstanpy - INFO - Chain [1] start processing
+05:01:50 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (140,), RNN: (140,), Prophet: (140,), SARIMA: (140,)
+
+Model Comparison:
+RNN:
+  MAE: 0.37981850654367844
+  RMSE: 0.444444820209906
+  SMAPE: 37.874833028160246%
+Prophet:
+  MAE: 0.3787210052857209
+  RMSE: 0.44219939792498847
+  SMAPE: 38.14353088237728%
+SARIMA:
+  MAE: 0.46133634585157524
+  RMSE: 0.5664081635792811
+  SMAPE: 42.82470431430838%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.1842
+Epoch 2 - Avg Loss: 0.0869
+Epoch 3 - Avg Loss: 0.0853
+Epoch 4 - Avg Loss: 0.0833
+Epoch 5 - Avg Loss: 0.0824
+
+Training Prophet...
+05:03:24 - cmdstanpy - INFO - Chain [1] start processing
+05:03:24 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (139,), RNN: (139,), Prophet: (139,), SARIMA: (139,)
+
+Model Comparison:
+RNN:
+  MAE: 0.33883905391206975
+  RMSE: 0.40481720299051055
+  SMAPE: 6.752648080347047%
+Prophet:
+  MAE: 0.3537367378859589
+  RMSE: 0.40241742711965867
+  SMAPE: 7.04866494521732%
+SARIMA:
+  MAE: 0.5691939411553564
+  RMSE: 0.6949578827145645
+  SMAPE: 10.916690162155215%
+
+Future predictions...
+		Forecasting for method: PUT
+Training RNN...
+Epoch 1 - Avg Loss: 0.1688
+Epoch 2 - Avg Loss: 0.0799
+Epoch 3 - Avg Loss: 0.0757
+Epoch 4 - Avg Loss: 0.0766
+Epoch 5 - Avg Loss: 0.0761
+
+Training Prophet...
+05:05:14 - cmdstanpy - INFO - Chain [1] start processing
+05:05:14 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (140,), RNN: (140,), Prophet: (140,), SARIMA: (140,)
+
+Model Comparison:
+RNN:
+  MAE: 0.31923814683678386
+  RMSE: 0.3920015058855973
+  SMAPE: 30.802044347240553%
+Prophet:
+  MAE: 0.33569456322522706
+  RMSE: 0.40672373648939475
+  SMAPE: 32.31847614990792%
+SARIMA:
+  MAE: 0.43571747673739714
+  RMSE: 0.5601300212425836
+  SMAPE: 37.72332170650254%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.1319
+Epoch 2 - Avg Loss: 0.0803
+Epoch 3 - Avg Loss: 0.0799
+Epoch 4 - Avg Loss: 0.0792
+Epoch 5 - Avg Loss: 0.0803
+
+Training Prophet...
+05:07:02 - cmdstanpy - INFO - Chain [1] start processing
+05:07:02 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (140,), RNN: (140,), Prophet: (140,), SARIMA: (140,)
+
+Model Comparison:
+RNN:
+  MAE: 0.3458458820600434
+  RMSE: 0.4135965505982366
+  SMAPE: 6.892032420463975%
+Prophet:
+  MAE: 0.3469603266629425
+  RMSE: 0.4131568362583545
+  SMAPE: 6.914208774028172%
+SARIMA:
+  MAE: 0.4766434264409879
+  RMSE: 0.5454452048679171
+  SMAPE: 9.582218192864731%
+
+Future predictions...
+		Forecasting for method: POST
+Training RNN...
+Epoch 1 - Avg Loss: 0.1108
+Epoch 2 - Avg Loss: 0.0732
+Epoch 3 - Avg Loss: 0.0707
+Epoch 4 - Avg Loss: 0.0699
+Epoch 5 - Avg Loss: 0.0704
+
+Training Prophet...
+05:08:36 - cmdstanpy - INFO - Chain [1] start processing
+05:08:36 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (139,), RNN: (139,), Prophet: (139,), SARIMA: (139,)
+
+Model Comparison:
+RNN:
+  MAE: 0.3709656603042196
+  RMSE: 0.43480942861634014
+  SMAPE: 34.19445361711391%
+Prophet:
+  MAE: 0.3645061549611591
+  RMSE: 0.43155519655193536
+  SMAPE: 33.776343321554265%
+SARIMA:
+  MAE: 0.39979358781947116
+  RMSE: 0.5326778834669472
+  SMAPE: 35.05757645311019%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.1619
+Epoch 2 - Avg Loss: 0.0841
+Epoch 3 - Avg Loss: 0.0807
+Epoch 4 - Avg Loss: 0.0798
+Epoch 5 - Avg Loss: 0.0810
+
+Training Prophet...
+05:10:06 - cmdstanpy - INFO - Chain [1] start processing
+05:10:06 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (139,), RNN: (139,), Prophet: (139,), SARIMA: (139,)
+
+Model Comparison:
+RNN:
+  MAE: 0.33906864926827757
+  RMSE: 0.3981038972527023
+  SMAPE: 6.7121721075212815%
+Prophet:
+  MAE: 0.3215582648869682
+  RMSE: 0.3934872253858607
+  SMAPE: 6.358727166453059%
+SARIMA:
+  MAE: 0.4855389356935255
+  RMSE: 0.6104161447948888
+  SMAPE: 9.351064191124353%
+
+Future predictions...
+	Forecasting for endpoint: /INVENTORY
+		Forecasting for method: GET
+Training RNN...
+Epoch 1 - Avg Loss: 0.1273
+Epoch 2 - Avg Loss: 0.0817
+Epoch 3 - Avg Loss: 0.0823
+Epoch 4 - Avg Loss: 0.0731
+Epoch 5 - Avg Loss: 0.0755
+
+Training Prophet...
+05:12:21 - cmdstanpy - INFO - Chain [1] start processing
+05:12:21 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (138,), RNN: (138,), Prophet: (138,), SARIMA: (138,)
+
+Model Comparison:
+RNN:
+  MAE: 0.3901627830518077
+  RMSE: 0.45012402817712327
+  SMAPE: 38.075453803278855%
+Prophet:
+  MAE: 0.3852962811438727
+  RMSE: 0.4546207031059021
+  SMAPE: 37.25942114129875%
+SARIMA:
+  MAE: 0.38789997741550797
+  RMSE: 0.4438214575974934
+  SMAPE: 37.94574169005706%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.1783
+Epoch 2 - Avg Loss: 0.0744
+Epoch 3 - Avg Loss: 0.0754
+Epoch 4 - Avg Loss: 0.0761
+Epoch 5 - Avg Loss: 0.0697
+
+Training Prophet...
+05:14:01 - cmdstanpy - INFO - Chain [1] start processing
+05:14:01 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (138,), RNN: (138,), Prophet: (138,), SARIMA: (138,)
+
+Model Comparison:
+RNN:
+  MAE: 0.35132668901857783
+  RMSE: 0.42237782210904523
+  SMAPE: 6.970791047672292%
+Prophet:
+  MAE: 0.3479514890108159
+  RMSE: 0.4151269831225907
+  SMAPE: 6.906710348793762%
+SARIMA:
+  MAE: 0.349146097150879
+  RMSE: 0.4203121416474091
+  SMAPE: 6.928308457333424%
+
+Future predictions...
+		Forecasting for method: PUT
+Training RNN...
+Epoch 1 - Avg Loss: 0.1760
+Epoch 2 - Avg Loss: 0.0822
+Epoch 3 - Avg Loss: 0.0765
+Epoch 4 - Avg Loss: 0.0768
+Epoch 5 - Avg Loss: 0.0721
+
+Training Prophet...
+05:15:29 - cmdstanpy - INFO - Chain [1] start processing
+05:15:29 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+
+Shapes - True: (138,), RNN: (138,), Prophet: (138,), SARIMA: (138,)
+
+Model Comparison:
+RNN:
+  MAE: 0.3607363522379961
+  RMSE: 0.430821338331373
+  SMAPE: 35.4095339546759%
+Prophet:
+  MAE: 0.36433998035611276
+  RMSE: 0.43594013658783537
+  SMAPE: 35.73551942138988%
+SARIMA:
+  MAE: 0.40367053853992624
+  RMSE: 0.5387479373357761
+  SMAPE: 37.12507140619075%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.1267
+Epoch 2 - Avg Loss: 0.0845
+Epoch 3 - Avg Loss: 0.0780
+Epoch 4 - Avg Loss: 0.0743
+Epoch 5 - Avg Loss: 0.0750
+
+Training Prophet...
+05:17:15 - cmdstanpy - INFO - Chain [1] start processing
+05:17:15 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (138,), RNN: (138,), Prophet: (138,), SARIMA: (138,)
+
+Model Comparison:
+RNN:
+  MAE: 0.36016837661092715
+  RMSE: 0.4310275444450447
+  SMAPE: 7.132977174943305%
+Prophet:
+  MAE: 0.40808642358360975
+  RMSE: 0.46691192507424717
+  SMAPE: 8.088854409813539%
+SARIMA:
+  MAE: 0.559162463997092
+  RMSE: 0.6324674937578042
+  SMAPE: 11.232229903781962%
+
+Future predictions...
+		Forecasting for method: POST
+Training RNN...
+Epoch 1 - Avg Loss: 0.1044
+Epoch 2 - Avg Loss: 0.0730
+Epoch 3 - Avg Loss: 0.0689
+Epoch 4 - Avg Loss: 0.0699
+Epoch 5 - Avg Loss: 0.0684
+
+Training Prophet...
+05:19:49 - cmdstanpy - INFO - Chain [1] start processing
+05:19:49 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (147,), RNN: (147,), Prophet: (147,), SARIMA: (147,)
+
+Model Comparison:
+RNN:
+  MAE: 0.34718173009188474
+  RMSE: 0.4311859642939096
+  SMAPE: 33.07492244102882%
+Prophet:
+  MAE: 0.34881382184779797
+  RMSE: 0.42167092119316
+  SMAPE: 33.253214346785235%
+SARIMA:
+  MAE: 0.5129639013103171
+  RMSE: 0.6636543354883682
+  SMAPE: 41.58346604230196%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.1228
+Epoch 2 - Avg Loss: 0.0768
+Epoch 3 - Avg Loss: 0.0732
+Epoch 4 - Avg Loss: 0.0710
+Epoch 5 - Avg Loss: 0.0706
+
+Training Prophet...
+05:21:13 - cmdstanpy - INFO - Chain [1] start processing
+05:21:14 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (146,), RNN: (146,), Prophet: (146,), SARIMA: (146,)
+
+Model Comparison:
+RNN:
+  MAE: 0.36823870145284304
+  RMSE: 0.43171396658229927
+  SMAPE: 7.352294101594689%
+Prophet:
+  MAE: 0.3589753467990263
+  RMSE: 0.4431530838423237
+  SMAPE: 7.167849649843736%
+SARIMA:
+  MAE: 0.39416794435249913
+  RMSE: 0.5320297178855379
+  SMAPE: 7.823776277274855%
+
+Future predictions...
+	Forecasting for endpoint: /PRICE
+		Forecasting for method: GET
+Training RNN...
+Epoch 1 - Avg Loss: 0.1543
+Epoch 2 - Avg Loss: 0.0801
+Epoch 3 - Avg Loss: 0.0745
+Epoch 4 - Avg Loss: 0.0747
+Epoch 5 - Avg Loss: 0.0769
+
+Training Prophet...
+05:22:42 - cmdstanpy - INFO - Chain [1] start processing
+05:22:42 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (133,), RNN: (133,), Prophet: (133,), SARIMA: (133,)
+
+Model Comparison:
+RNN:
+  MAE: 0.33973662528374604
+  RMSE: 0.39983435897948827
+  SMAPE: 32.2193421255225%
+Prophet:
+  MAE: 0.3699404368664509
+  RMSE: 0.4254436289270053
+  SMAPE: 35.359676314543414%
+SARIMA:
+  MAE: 0.7757571600972807
+  RMSE: 0.8669982230351609
+  SMAPE: 92.37494776863741%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.1024
+Epoch 2 - Avg Loss: 0.0764
+Epoch 3 - Avg Loss: 0.0758
+Epoch 4 - Avg Loss: 0.0744
+Epoch 5 - Avg Loss: 0.0749
+
+Training Prophet...
+05:24:15 - cmdstanpy - INFO - Chain [1] start processing
+05:24:15 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (134,), RNN: (134,), Prophet: (134,), SARIMA: (134,)
+
+Model Comparison:
+RNN:
+  MAE: 0.3922161754697541
+  RMSE: 0.4531438340426131
+  SMAPE: 7.854396943330768%
+Prophet:
+  MAE: 0.4135236895494937
+  RMSE: 0.4637798739359746
+  SMAPE: 8.285567476742678%
+SARIMA:
+  MAE: 0.4049746580482676
+  RMSE: 0.45705406783142855
+  SMAPE: 8.111411212596204%
+
+Future predictions...
+		Forecasting for method: PUT
+Training RNN...
+Epoch 1 - Avg Loss: 0.1753
+Epoch 2 - Avg Loss: 0.0867
+Epoch 3 - Avg Loss: 0.0780
+Epoch 4 - Avg Loss: 0.0676
+Epoch 5 - Avg Loss: 0.0873
+
+Training Prophet...
+05:26:08 - cmdstanpy - INFO - Chain [1] start processing
+05:26:08 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (145,), RNN: (145,), Prophet: (145,), SARIMA: (145,)
+
+Model Comparison:
+RNN:
+  MAE: 0.3570554353791201
+  RMSE: 0.422711897964361
+  SMAPE: 33.832688343724854%
+Prophet:
+  MAE: 0.34937306638747095
+  RMSE: 0.4202411401248156
+  SMAPE: 33.153412795015534%
+SARIMA:
+  MAE: 0.35211928724325436
+  RMSE: 0.43983975897114974
+  SMAPE: 33.01277006892467%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.1157
+Epoch 2 - Avg Loss: 0.0777
+Epoch 3 - Avg Loss: 0.0782
+Epoch 4 - Avg Loss: 0.0759
+Epoch 5 - Avg Loss: 0.0729
+
+Training Prophet...
+05:27:39 - cmdstanpy - INFO - Chain [1] start processing
+05:27:39 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+
+Shapes - True: (144,), RNN: (144,), Prophet: (144,), SARIMA: (144,)
+
+Model Comparison:
+RNN:
+  MAE: 0.39157768026058737
+  RMSE: 0.4699040617232309
+  SMAPE: 7.843845515546752%
+Prophet:
+  MAE: 0.391447097553345
+  RMSE: 0.49333774781395323
+  SMAPE: 7.838692188968609%
+SARIMA:
+  MAE: 12681.225534137588
+  RMSE: 36245.33695734197
+  SMAPE: 131.1551501984218%
+
+Future predictions...
+		Forecasting for method: POST
+Training RNN...
+Epoch 1 - Avg Loss: 0.1390
+Epoch 2 - Avg Loss: 0.0832
+Epoch 3 - Avg Loss: 0.0792
+Epoch 4 - Avg Loss: 0.0773
+Epoch 5 - Avg Loss: 0.0772
+
+Training Prophet...
+05:28:11 - cmdstanpy - INFO - Chain [1] start processing
+05:28:11 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (149,), RNN: (149,), Prophet: (149,), SARIMA: (149,)
+
+Model Comparison:
+RNN:
+  MAE: 0.3447538652670278
+  RMSE: 0.4051043121404051
+  SMAPE: 30.829423888926645%
+Prophet:
+  MAE: 0.323074649181318
+  RMSE: 0.3945845258008874
+  SMAPE: 28.852029800920665%
+SARIMA:
+  MAE: 0.3244409940819431
+  RMSE: 0.39354155195410245
+  SMAPE: 28.948733994964527%
+
+Future predictions...
+Training RNN...
+Epoch 1 - Avg Loss: 0.1221
+Epoch 2 - Avg Loss: 0.0758
+Epoch 3 - Avg Loss: 0.0734
+Epoch 4 - Avg Loss: 0.0733
+Epoch 5 - Avg Loss: 0.0695
+
+Training Prophet...
+05:29:51 - cmdstanpy - INFO - Chain [1] start processing
+05:29:51 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\tsa\statespace\sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (148,), RNN: (148,), Prophet: (148,), SARIMA: (148,)
+
+Model Comparison:
+RNN:
+  MAE: 0.36507333431201816
+  RMSE: 0.43396709045836795
+  SMAPE: 7.260594870538166%
+Prophet:
+  MAE: 0.3655654804370246
+  RMSE: 0.43569864410006326
+  SMAPE: 7.270550901442892%
+SARIMA:
+  MAE: 0.46048746072257607
+  RMSE: 0.5186742197348159
+  SMAPE: 9.197267138612625%
+
+Future predictions...
+Get all forecasts for microservice-5 based on service_health
+Training RNN...
+Epoch 1 - Avg Loss: 0.0932
+Epoch 2 - Avg Loss: 0.0888
+Epoch 3 - Avg Loss: 0.0884
+Epoch 4 - Avg Loss: 0.0887
+Epoch 5 - Avg Loss: 0.0886
+
+Training Prophet...
+05:32:15 - cmdstanpy - INFO - Chain [1] start processing
+05:32:16 - cmdstanpy - INFO - Chain [1] done processing
+
+Training SARIMA...
+F:\final-project\venv\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+
+Shapes - True: (2144,), RNN: (2144,), Prophet: (2144,), SARIMA: (2144,)
+
+Model Comparison:
+RNN:
+  MAE: 0.0010860306242114737
+  RMSE: 0.0012624717511034442
+  SMAPE: 0.02354482190894617%
+Prophet:
+  MAE: 0.0010815463777260933
+  RMSE: 0.001258211850143427
+  SMAPE: 0.023447602247415898%
+SARIMA:
+  MAE: 0.02070392970503134
+  RMSE: 0.023473601996526604
+  SMAPE: 0.44756808330754944%
+
+Future predictions...
+Success saving in data_forecast\forecast_microservice-5_infrastructure_metrics_load_percent.csv
+Success saving in data_forecast\forecast_microservice-5_infrastructure_metrics_response_time.csv
+Success saving in data_forecast\forecast_microservice-5_infrastructure_metrics_recovery.csv
+Success saving in data_forecast\forecast_microservice-5_http_metrics_error_rate.csv
+Success saving in data_forecast\forecast_microservice-5_http_metrics_avg_response_time.csv
+Success saving in data_forecast\forecast_microservice-5_service_health.csv
+
+Process finished with exit code 0
